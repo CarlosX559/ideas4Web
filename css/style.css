@@ -923,7 +923,7 @@ a {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 60px 0px 60px 0px;
+    padding: 60px 0px 80px 0px;
 }
 
 .container_atuacao_int {
@@ -938,7 +938,7 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
     width: 100%;
 }
 
@@ -1053,9 +1053,103 @@ a {
 }
 
 
+footer {
+    padding: 120px 0px 40px 0px;
+    width: 100%;
+    position: relative;
+}
 
+.bg_footer {
+    position: absolute;
+    top: -190px;
+    left: 0px;
+    max-width: max-content;
+    z-index: -1;
+    width: 100%;
+}
 
+.container_footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
 
+.container_footer_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1225px;
+}
+
+.area_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.area_logo {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    max-width: 340px;
+}
+
+.area_logo img {
+    width: 100%;
+    max-width: 160px;
+}
+
+.copy p {
+    color: var(--secundary-grey);
+    font-family: 'Montserrat-Light';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0px;
+}
+
+.area_texts_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 840px;
+}
+
+.area_texts_footer nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 0px;
+}
+
+.area_texts_footer li {
+    color: #999;
+    font-family: 'Montserrat-Bold';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.area_sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 200px;
+}
+
+.area_sociais img {
+    max-width: max-content;
+    width: 100%;
+}
 
 
 @media(min-width: 1920px) {
@@ -1069,5 +1163,14 @@ a {
         position: absolute;
         left: 485px;
         bottom: 10px;
+    }
+    
+    .bg_footer {
+        position: absolute;
+        top: -190px;
+        left: 0px;
+        max-width: 850px;
+        z-index: -1;
+        width: 100%;
     }
 }
