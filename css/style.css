@@ -85,9 +85,17 @@ header {
     width: 100%;
 }
 
+.area_logo_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 690px;
+}
+
 .logo_header {
     width: 100%;
-    max-width: 160px;
+    max-width: 159px;
 }
 
 /*Container 1*/
@@ -1398,7 +1406,7 @@ footer {
 
 .area_logo img {
     width: 100%;
-    max-width: 160px;
+    max-width: 159px;
 }
 
 .copy p {
