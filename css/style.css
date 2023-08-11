@@ -2069,6 +2069,15 @@ footer {
     }
 
 
+    .container_servicos {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .area_servicos {
+        padding: 0px 20px;
+        gap: 20px;
+    }
+
     /*Atuação*/
     .container_atuacao {
         padding: 40px 0px 40px 0px;
