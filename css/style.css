@@ -382,6 +382,10 @@ header {
     width: 100%;
 }
 
+.area_text_principal_mobile {
+    display: none;
+}
+
 .title_slide_princpal h2 {
     color: var(--primary-white);
     font-family: 'Montserrat-Thin';
@@ -1543,6 +1547,14 @@ footer {
     max-width: 159px;
 }
 
+.copy_mobile {
+    display: none;
+}
+
+.copy {
+    display: flex;
+}
+
 .copy p {
     color: var(--secundary-grey);
     font-family: 'Montserrat-Light';
@@ -1618,6 +1630,94 @@ footer {
 
 
 @media(max-width: 1024px) {
+
+    .area_slide_principal,
+    .area_slide_principal_2,
+    .area_slide_principal_3 {
+        height: 820px;
+    }
+
+    .title_slide_princpal h2 {
+        filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .4));
+        font-size: 60px;
+    }
+
+    .title_slide_princpal_2 h2 {
+        font-size: 60px;
+    }
+
+    .sub_title_slide_principal {
+        display: none;
+    }
+
+    .area_texts_2_slide_principal {
+        justify-content: center;
+    }
+
+    .area_text_slide_principal {
+        height: 100%;
+    }
+
+    .area_text_principal_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .sub_title_slide_principal_mobile p {
+        color: var(--primary-white);
+        text-align: center;
+        font-family: 'Montserrat-Light';
+        font-size: 18px;
+        font-weight: 300;
+        line-height: normal;
+        margin: 0px;
+        filter: drop-shadow(5px 3px 3px rgba(0, 0, 0, .8));
+    }
+
+
+    .btn_box_mobile {
+        position: relative;
+        padding: 15px 20px;
+        border-radius: 50px;
+    }
+
+    .btn_box_mobile:hover {
+        animation: gradient 300ms ease-in;
+        background: linear-gradient(45deg, #FF370A, #FAB013) border-box;
+    }
+
+    .btn_box_mobile::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 50px;
+        border: 2px solid transparent;
+        background: linear-gradient(45deg, #FF370A, #FAB013) border-box;
+        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0) !important;
+        mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0) !important;
+        -webkit-mask-composite: destination-out;
+        mask-composite: exclude;
+    }
+
+    .btn_box_text_mobile h2 {
+        color: var(--primary-white);
+        font-family: 'Montserrat-Bold';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0px;
+    }
+
+
     .bg_black_1 {
         display: none;
     }
@@ -1649,8 +1749,8 @@ footer {
     }
 
     .bg_header_2 {
-        left: -11px;
-        top: 170px;
+        left: 1px;
+        top: 163px;
         max-width: 720px;
     }
 
@@ -1714,7 +1814,9 @@ footer {
     .area_texts_portfolio {
         flex-direction: column;
         gap: 20px;
+        padding: 0px 20px;
     }
+
     .area_portfolio {
         padding: 0px;
     }
@@ -1786,11 +1888,13 @@ footer {
 
     .title_beneficios h2 {
         margin: 80px 0px 0px 60px;
+        font-size: 46px;
     }
 
     .area_atuacao {
         padding: 0px 20px;
     }
+
     .area_text_atuacao {
         flex-direction: column;
         align-items: flex-start;
@@ -1827,6 +1931,282 @@ footer {
         left: -10px;
         max-width: 500px;
     }
+
+
+}
+
+@media(max-width: 768px) {
+
+    .area_menu nav ul a li {
+        font-size: 32px;
+    }
+
+    .area_logo_header .btn_box {
+        display: none;
+    }
+
+    .area_logo_header {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .logo_header {
+        width: 100%;
+        max-width: 120px;
+    }
+
+    .menu_open {
+        cursor: pointer;
+        max-width: 40px;
+        width: 100%;
+    }
+
+    .title_slide_princpal h2 {
+        font-size: 40px;
+    }
+
+    .title_slide_princpal_2 h2 {
+        font-size: 40px;
+    }
+
+    .area_text_numeros {
+        display: none;
+    }
+
+    .slide-1 .owl-prev {
+        position: absolute;
+        left: 20px;
+        bottom: 40px;
+    }
+
+    .slide-1 .owl-next {
+        position: absolute;
+        left: 80px;
+        bottom: 40px;
+    }
+
+    .area_text_slide_principal_int {
+        margin-top: 80px;
+    }
+
+    .area_slide_principal,
+    .area_slide_principal_2,
+    .area_slide_principal_3 {
+        height: 600px;
+    }
+
+    /*Quem somos*/
+    #quem_somos {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .area_text_quem_somos {
+        max-width: 680px;
+        margin-top: 0px;
+    }
+
+    .area_quem_somos {
+        padding: 0px 20px;
+    }
+
+    .title_quem_somos h2 {
+        font-size: 36px;
+    }
+
+    .sub_title_quem_somos h2 {
+        font-size: 36px;
+    }
+
+    .area_box_quem_somos {
+        left: 20px;
+    }
+
+    .area_numeracao {
+        flex-direction: column;
+        gap: 5px;
+        text-align: left;
+        align-items: start;
+    }
+
+    .servicos {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .espacamento_title {
+        padding-left: 0px;
+    }
+
+    /*Beneficios*/
+    .container_beneficios {
+        padding: 40px 0px 0px 0px;
+
+    }
+
+    .title_beneficios h2 {
+        font-size: 36px;
+        margin: 60px 0px 0px 20px;
+    }
+
+    .area_qualidades {
+        justify-content: start;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    .title_qualidade h2 {
+        font-size: 20px;
+    }
+
+
+    .area_slide_depoimentos {
+        max-width: 645px;
+    }
+
+    .info_depoimentos p {
+        line-height: 32px;
+    }
+
+
+    /*Atuação*/
+    .container_atuacao {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .title_atuacao h2 {
+        font-size: 36px;
+    }
+
+    .area_infos_atuacao {
+        max-width: max-content;
+    }
+
+    .area_info_1 {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .area_info_int {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .area_info_2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .area_footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .area_logo {
+        align-items: center;
+        gap: 40px;
+    }
+
+    .area_texts_footer {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .area_texts_footer nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .copy {
+        display: none;
+    }
+
+    .copy_mobile {
+        display: flex;
+    }
+
+    .copy_mobile p {
+        color: var(--secundary-grey);
+        text-align: center;
+        font-family: 'Montserrat-Light';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: normal;
+        margin: 0px;
+    }
+
+
+}
+
+@media(max-width: 480px) {
+    .area_menu nav ul a li {
+        font-size: 26px;
+    }
+
+    .area_menu nav ul {
+        gap: 20px;
+    }
+
+    .area_logo_header {
+        max-width: 65%;
+        justify-content: start;
+    }
+
+    .area_box_quem_somos {
+        max-width: 345px;
+        height: auto;
+        padding: 30px 25px 30px 25px;
+    }
+
+    .title_box_quem_somos h2 {
+        font-size: 24px;
+    }
+
+    .sub_title_box_quem_somos p {
+        font-size: 16px;
+    }
+
+    .area_text_box_quem_somos {
+        max-width: 245px;
+        gap: 20px;
+    }
+
+
+    .title_beneficios h2 {
+        font-size: 36px;
+        margin: 40px 0px 0px 20px;
+    }
+
+    .area_slide_depoimentos {
+        max-width: 315px;
+    }
+
+    .slide-3 .owl-prev {
+        left: 110px;
+    }
+
+    .slide-3 .owl-next {
+        left: 180px;
+    }
+
+
+    footer {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .bg_footer {
+        top: 60px;
+    }
+
+
+
+
+
+
+
+
+
 
 
 }
