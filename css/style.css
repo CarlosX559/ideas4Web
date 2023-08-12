@@ -267,7 +267,6 @@ header {
     transform: scale3d(1.1, 1.1, 1.1);
 }
 
-
 .animation {
     animation: pulsar 1.5s infinite;
 }
@@ -2251,6 +2250,15 @@ footer {
 }
 
 @media(max-width: 480px) {
+
+    .container_header {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .area_slide_principal, .area_slide_principal_2, .area_slide_principal_3 {
+        height: 740px;
+    }
+
     .area_menu nav ul a li {
         font-size: 26px;
     }
