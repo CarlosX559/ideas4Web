@@ -1218,8 +1218,12 @@ header {
     gap: 15px;
     padding: 40px 70px;
     position: relative;
+    background-image: url(../img/circulo_slide.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
+/*
 .area_perfil::before {
     content: "";
     position: absolute;
@@ -1236,7 +1240,7 @@ header {
     -webkit-mask-composite: clear;
     mask-composite: exclude;
 }
-
+*/
 .area_texts_perfil {
     display: flex;
     justify-content: center;
@@ -1986,6 +1990,7 @@ footer {
         padding: 0px 40px;
         position: relative;
         z-index: 1;
+        max-width: max-content;
     }
 
     .title_beneficios h2 {
@@ -2154,7 +2159,8 @@ footer {
     .area_qualidades {
         justify-content: start;
         align-items: center;
-        padding: 0px 20px;
+        padding: 0px 0px 0px 20px;
+        width: auto;
     }
 
     .title_qualidade h2 {
@@ -2261,13 +2267,25 @@ footer {
     }
 
     .area_slide_principal_2 {
-        background-position: right;
+        background-position: center;
+    }
+
+    .area_slide_principal_3 {
+        background-position: center;
     }
 
     .area_slide_principal,
     .area_slide_principal_2,
     .area_slide_principal_3 {
         height: 950px;
+    }
+
+    .area_slide_principal_2 {
+        background-image: url(../img/banner_hero_2_mobile.webp);
+    }
+
+    .area_slide_principal_3 {
+        background-image: url(../img/banner_hero_3_mobile.webp);
     }
 
     .area_menu nav ul a li {
@@ -2316,7 +2334,7 @@ footer {
     }
 
     .area_perfil {
-        padding: 20px 48px;
+        padding: 40px 69px;
     }
 
     .area_slide_depoimentos {
