@@ -2255,6 +2255,14 @@ footer {
         padding: 20px 0px 0px 0px;
     }
 
+    .area_slide_principal {
+        background-position: center;
+    }
+
+    .area_slide_principal_2 {
+        background-position: right;
+    }
+
     .area_slide_principal, .area_slide_principal_2, .area_slide_principal_3 {
         height: 740px;
     }
