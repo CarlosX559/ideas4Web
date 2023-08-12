@@ -1218,12 +1218,12 @@ header {
     gap: 15px;
     padding: 40px 70px;
     position: relative;
-    background-image: url(../img/circulo_slide.svg);
+    /*background-image: url(../img/circulo_slide.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
 }
-/*
+
 .area_perfil::before {
     content: "";
     position: absolute;
@@ -1240,7 +1240,7 @@ header {
     -webkit-mask-composite: clear;
     mask-composite: exclude;
 }
-*/
+
 .area_texts_perfil {
     display: flex;
     justify-content: center;
@@ -2334,7 +2334,7 @@ footer {
     }
 
     .area_perfil {
-        padding: 40px 69px;
+        padding: 30px 60px;
     }
 
     .area_slide_depoimentos {
