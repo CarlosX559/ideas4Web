@@ -1124,7 +1124,10 @@ header {
 }
 
 .slide-3 .item img {
+    display: flex !important;
     border-radius: 200px;
+    max-width: max-content;
+    width: 100%;
 }
 
 .slide-3 .owl-prev {
@@ -2248,11 +2251,11 @@ footer {
     }
 
     .slide-3 .owl-prev {
-        left: 110px;
+        left: 60px;
     }
 
     .slide-3 .owl-next {
-        left: 180px;
+        left: 130px;
     }
 
 
