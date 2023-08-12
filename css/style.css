@@ -2264,6 +2264,9 @@ footer {
         left: 130px;
     }
 
+    .slide-4 .item {
+        max-width: 350px;
+    }
 
     footer {
         padding: 0px 0px 20px 0px;
