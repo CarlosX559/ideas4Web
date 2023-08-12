@@ -962,17 +962,17 @@ header {
     z-index: 1;
 }
 
-.teste {
+.hover_img {
     transition: all ease 400ms;
 
 }
 
-.teste:hover {
-    width: 520px;
+.hover_img:hover {
+    width: 500px;
 }
 
 .negocio_2 {
-    background-image: url(../img/img_1.png);
+    background-image: url(../img/img_2.png);
     background-position: left;
     background-repeat: no-repeat;
     max-width: 360px;
@@ -985,33 +985,32 @@ header {
     max-width: 100%;
 }
 
-.teste2 {
-    transition: all ease 400ms;
-
-}
-
-.teste2:hover {
-    width: 520px;
-}
-
 .negocio_3 {
-    background-image: url(../img/img_1.png);
+    background-image: url(../img/img_3.png);
     background-position: left;
     background-repeat: no-repeat;
     max-width: 360px;
     width: 100%;
     height: 560px;
+    transition: all ease 400ms;
+}
 
+.negocio_3:hover {
+    max-width: 100%;
 }
 
 .negocio_4 {
-    background-image: url(../img/img_1.png);
+    background-image: url(../img/img_4.png);
     background-position: left;
     background-repeat: no-repeat;
     max-width: 360px;
     width: 100%;
     height: 560px;
+    transition: all ease 400ms;
+}
 
+.negocio_4:hover {
+    max-width: 100%;
 }
 
 /*Beneficios*/
