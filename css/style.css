@@ -353,7 +353,7 @@ header {
 }
 
 .area_slide_principal {
-    background-image: url(../img/banner_hero_1.png);
+    background-image: url(../img/banner_hero_1.webp);
     background-size: auto;
     background-repeat: no-repeat;
     height: 1024px;
@@ -363,7 +363,7 @@ header {
 }
 
 .area_slide_principal_2 {
-    background-image: url(../img/banner_hero_2.png);
+    background-image: url(../img/banner_hero_2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 1024px;
@@ -373,7 +373,7 @@ header {
 }
 
 .area_slide_principal_3 {
-    background-image: url(../img/banner_hero_3.png);
+    background-image: url(../img/banner_hero_3.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 1024px;
@@ -951,7 +951,7 @@ header {
 }
 
 .negocio_1 {
-    background-image: url(../img/img_1.png);
+    background-image: url(../img/img_1.webp);
     background-position: left;
     background-repeat: no-repeat;
     max-width: 360px;
@@ -978,7 +978,7 @@ header {
 }
 
 .negocio_2 {
-    background-image: url(../img/img_2.png);
+    background-image: url(../img/img_2.webp);
     background-position: left;
     background-repeat: no-repeat;
     max-width: 360px;
@@ -992,7 +992,7 @@ header {
 }
 
 .negocio_3 {
-    background-image: url(../img/img_3.png);
+    background-image: url(../img/img_3.webp);
     background-position: left;
     background-repeat: no-repeat;
     max-width: 360px;
@@ -1006,7 +1006,7 @@ header {
 }
 
 .negocio_4 {
-    background-image: url(../img/img_4.png);
+    background-image: url(../img/img_4.webp);
     background-position: left;
     background-repeat: no-repeat;
     max-width: 360px;
@@ -1710,7 +1710,7 @@ footer {
     }
 
     .area_slide_principal {
-        background-image: url(../img/banner_hero_1.png);
+        background-image: url(../img/banner_hero_1.webp);
         background-size: cover;
         background-repeat: no-repeat;
         height: 1024px;
