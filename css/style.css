@@ -259,7 +259,14 @@ header {
 .area_icons_social a img {
     max-width: max-content;
     width: 100%;
+    transform: scale3d(1, 1, 1);
+    transition: all ease 300ms;
 }
+
+.area_icons_social a img:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
 
 .animation {
     animation: pulsar 1.5s infinite;
