@@ -2240,6 +2240,12 @@ footer {
         gap: 20px;
     }
 
+    .area_perfil {
+        padding: 20px 48px;
+    }
+    .area_slide_depoimentos {
+        gap: 20px;
+    }
 
     .title_beneficios h2 {
         font-size: 36px;
@@ -2266,15 +2272,6 @@ footer {
     .bg_footer {
         top: 60px;
     }
-
-
-
-
-
-
-
-
-
 
 
 }
