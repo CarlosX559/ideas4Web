@@ -1497,6 +1497,7 @@ header {
 .map {
     max-width: max-content;
     width: 100%;
+    height: auto;
 }
 
 .area_infos_atuacao {
@@ -2263,7 +2264,9 @@ footer {
         background-position: right;
     }
 
-    .area_slide_principal, .area_slide_principal_2, .area_slide_principal_3 {
+    .area_slide_principal,
+    .area_slide_principal_2,
+    .area_slide_principal_3 {
         height: 950px;
     }
 
@@ -2279,6 +2282,19 @@ footer {
         max-width: 65%;
         justify-content: start;
     }
+
+
+    .negocio_1,
+    .negocio_2,
+    .negocio_3,
+    .negocio_4 {
+        height: 380px;
+    }
+
+    .hover_img:hover {
+        width: 425px;
+    }
+    
 
     .area_box_quem_somos {
         max-width: 345px;
