@@ -1147,7 +1147,7 @@ header {
 .area_slide_depoimentos {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 30px;
     width: 100%;
 }
@@ -1155,7 +1155,8 @@ header {
 .slide-3 {
     position: relative;
     z-index: 1;
-    margin-left: -100px;
+    margin-left: -60px !important;
+    -webkit-margin-end: auto;
 }
 
 .slide-3 .item img {
@@ -1167,13 +1168,13 @@ header {
 
 .slide-3 .owl-prev {
     position: absolute;
-    left: 340px;
+    left: 290px;
     bottom: 10px;
 }
 
 .slide-3 .owl-next {
     position: absolute;
-    left: 410px;
+    left: 360px;
     bottom: 10px;
 }
 
@@ -1930,7 +1931,7 @@ footer {
     }
 
     .slide-3 {
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
 
     .slide-3 .item {
@@ -1946,13 +1947,13 @@ footer {
 
     .slide-3 .owl-prev {
         position: absolute;
-        left: 150px;
+        left: 100px;
         bottom: -60px;
     }
 
     .slide-3 .owl-next {
         position: absolute;
-        left: 220px;
+        left: 170px;
         bottom: -60px;
     }
 
@@ -2302,6 +2303,10 @@ footer {
 
     .slide-4 .item {
         max-width: 350px;
+    }
+
+    .area_info_total {
+        gap: 20px;
     }
 
     footer {

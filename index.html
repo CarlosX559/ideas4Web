@@ -42,9 +42,15 @@
                     </div>
 
                     <div class="bandeiras">
-                        <img src="img/pt.svg" alt="">
-                        <img src="img/ing.svg" alt="">
-                        <img src="img/es.svg" alt="">
+                        <a href="#">
+                            <img src="img/pt.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/ing.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/es.svg" alt="">
+                        </a>
                     </div>
 
                 </div>
@@ -1093,7 +1099,7 @@
                             <div class="area_info_int">
                                 <div class="area_info">
                                     <div class="area_icon_info">
-                                        <img src="img/meeting_room.svg" alt="">
+                                        <img src="img/user.svg" alt="">
                                         <div class="title_icon_info">
                                             <h2>
                                                 Equipe com:
@@ -1131,7 +1137,7 @@
                         <div class="area_info_2">
                             <div class="area_info">
                                 <div class="area_icon_info">
-                                    <img src="img/meeting_room.svg" alt="">
+                                    <img src="img/verified_user.svg" alt="">
                                     <div class="title_icon_info">
                                         <h2>
                                             Mais de:
@@ -1148,7 +1154,7 @@
 
                             <div class="area_info">
                                 <div class="area_icon_info">
-                                    <img src="img/meeting_room.svg" alt="">
+                                    <img src="img/verified.svg" alt="">
                                     <div class="title_icon_info">
                                         <h2>
                                             Mais de:
@@ -1165,7 +1171,7 @@
 
                             <div class="area_info">
                                 <div class="area_icon_info">
-                                    <img src="img/meeting_room.svg" alt="">
+                                    <img src="img/important_devices.svg" alt="">
                                     <div class="title_icon_info">
                                         <h2>
                                             Todos os clientes:
@@ -1180,10 +1186,6 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-
 
                     </div>
                 </div>
@@ -1212,21 +1214,30 @@
                     <div class="area_texts_footer">
                         <nav>
                             <ul>
-                                <li>
-                                    LIVRO DE RECLAMAÇÕES
-                                </li>
+                                <a href="#">
+                                    <li>
+                                        LIVRO DE RECLAMAÇÕES
+                                    </li>
+                                </a>
                                 <img src="img/point.svg" alt="">
+                              <a href="#">
                                 <li>
                                     CONTACTO
                                 </li>
+                              </a>
                                 <img src="img/point.svg" alt="">
-                                <li>
-                                    TERMOS DE USO
-                                </li>
+
+                                <a href="#">
+                                    <li>
+                                        TERMOS DE USO
+                                    </li>
+                                </a>
                                 <img src="img/point.svg" alt="">
-                                <li>
-                                    POLÍTICA DE PRIVACIDADE
-                                </li>
+                                <a href="#">
+                                    <li>
+                                        POLÍTICA DE PRIVACIDADE
+                                    </li>
+                                </a>
                             </ul>
                         </nav>
 
@@ -1305,13 +1316,13 @@
             $(".slide-2").owlCarousel({
 
                 items: 4,
-                loop: false,
+                loop: true,
                 nav: false,
                 /* navText: [
                      prev,
                      next
                  ],*/
-                autoplay: false,
+                autoplay: true,
                 autoplayTimeout: 10000,
                 dots: false,
                 responsive: {
