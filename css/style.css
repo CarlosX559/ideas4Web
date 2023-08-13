@@ -389,6 +389,7 @@ header {
     top: 0px;
     max-width: max-content;
     width: 100%;
+    height: auto;
     z-index: 1;
 }
 
@@ -398,6 +399,7 @@ header {
     top: 0px;
     max-width: max-content;
     width: 100%;
+    height: auto;
     z-index: 0;
 }
 
