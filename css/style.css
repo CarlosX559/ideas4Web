@@ -2261,6 +2261,13 @@ footer {
 
 @media(max-width: 480px) {
 
+    .bg_quem_somos, .work, .beneficios, .blog {
+        display: none;
+    }
+    #container_blog {
+        padding: 40px 0px 40px 0px;
+    }
+
     .container_header {
         padding: 20px 0px 0px 0px;
     }
@@ -2316,6 +2323,9 @@ footer {
         width: 425px;
     }
     
+    #quem_somos {
+        padding: 40px 0px 40px 0px;
+    }
 
     .area_box_quem_somos {
         max-width: 345px;
@@ -2374,7 +2384,7 @@ footer {
     }
 
     .bg_footer {
-        top: 60px;
+        top: 68px;
     }
 
 
