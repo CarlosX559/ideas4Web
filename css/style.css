@@ -221,6 +221,7 @@ header {
 .logo_header {
     width: 100%;
     max-width: 159px;
+    height: auto;
 }
 
 /*Container 1*/
