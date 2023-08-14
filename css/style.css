@@ -274,6 +274,7 @@ header {
     font-weight: 300;
     line-height: normal;
     padding: 0px;
+    margin: 0px;
 }
 
 .area_formulario_total {
@@ -1412,8 +1413,9 @@ textarea {
 
 .slide-3 .item img {
     display: flex !important;
-    border-radius: 200px;
-    max-width: max-content;
+    border-radius: 100px;
+    max-width: 120px;
+    height: 120px;
     width: 100%;
 }
 
@@ -1461,7 +1463,7 @@ textarea {
     justify-content: center;
     flex-direction: column;
     gap: 15px;
-    padding: 40px 70px;
+    padding: 50px 70px;
     position: relative;
     /*background-image: url(../img/circulo_slide.svg);
     background-repeat: no-repeat;
@@ -1974,6 +1976,33 @@ footer {
 
 @media(max-width: 1024px) {
 
+    .area_contato {
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    .area_texts_contato {
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .area_form {
+        justify-content: center;
+        max-width: 800px;
+    }
+
+    .area_formulario {
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
     .area_slide_principal,
     .area_slide_principal_2,
     .area_slide_principal_3 {
@@ -2199,6 +2228,10 @@ footer {
     .area_depoimentos {
         flex-direction: column;
 
+    }
+
+    .area_perfil {
+        padding: 40px 50px 40px 50px;
     }
 
     .slide-3 {
@@ -2531,6 +2564,15 @@ footer {
 }
 
 @media(max-width: 480px) {
+    .container_contato {
+        padding: 40px 0px 40px 0px;
+    }
+    .title_contato h2 {
+        font-size: 36px;
+    }
+    form {
+        padding: 0px 20px;
+    }
 
     .bg_quem_somos,
     .work,
@@ -2619,10 +2661,6 @@ footer {
     .area_text_box_quem_somos {
         max-width: 245px;
         gap: 20px;
-    }
-
-    .area_perfil {
-        padding: 30px 60px;
     }
 
     .area_slide_depoimentos {
