@@ -22,7 +22,7 @@ function menu() {
 }
 menu();
 
-function teste() {
+function servicos() {
     let mais = document.querySelectorAll('.mais');
     let title = document.querySelectorAll('.sub_title_servicos');
     let teste = document.querySelectorAll('.mais p');
@@ -47,10 +47,4 @@ function teste() {
     }
 
 }
-teste();
-/*if( mais[0].classList.contains("title1") ) {
-    title[0].style.height = 'auto';
-    
-}else {
-
-}*/
+servicos();
