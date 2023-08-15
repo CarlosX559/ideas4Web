@@ -468,7 +468,7 @@ textarea {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    position: absolute;
+    position: fixed;
     right: 100px;
     bottom: 40px;
     z-index: 8;
