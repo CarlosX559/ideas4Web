@@ -1196,6 +1196,24 @@ textarea {
     align-items: center;
 }
 
+.negocio_int {
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+    padding: 0px 0px 40px 60px;
+}
+
+.negocio_int p {
+    color: var(--primary-white);
+    font-family: 'Montserrat-Medium';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px;
+    filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .4));
+}
+
 .negocio_1 {
     background-image: url(../img/img_1.webp);
     background-position: left;
@@ -1210,13 +1228,16 @@ textarea {
     max-width: 100%;
 }
 
+.negocio_1:hover > .negocio_int {
+    display: flex;
+}
+
 .owl-item:hover {
     z-index: 1;
 }
 
 .hover_img {
     transition: all ease 400ms;
-
 }
 
 .hover_img:hover {
@@ -1237,6 +1258,10 @@ textarea {
     max-width: 100%;
 }
 
+.negocio_2:hover > .negocio_int {
+    display: flex;
+}
+
 .negocio_3 {
     background-image: url(../img/img_3.webp);
     background-position: left;
@@ -1251,6 +1276,10 @@ textarea {
     max-width: 100%;
 }
 
+.negocio_3:hover > .negocio_int {
+    display: flex;
+}
+
 .negocio_4 {
     background-image: url(../img/img_4.webp);
     background-position: left;
@@ -1263,6 +1292,10 @@ textarea {
 
 .negocio_4:hover {
     max-width: 100%;
+}
+
+.negocio_4:hover > .negocio_int {
+    display: flex;
 }
 
 /*Beneficios*/
@@ -1320,7 +1353,7 @@ textarea {
     flex-wrap: wrap;
     gap: 40px;
     width: 100%;
-    max-width: 860px;
+    max-width: 1040px;
     margin-top: 40px;
 }
 
@@ -1329,7 +1362,7 @@ textarea {
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    max-width: 390px;
+    max-width: 400px;
 }
 
 .area_title_qualidade {
@@ -1392,8 +1425,9 @@ textarea {
 }
 
 .bg_depoimentos {
-    max-width: 260px;
+    max-width: 280px;
     width: 100%;
+    height: auto;
 }
 
 .area_slide_depoimentos {
@@ -1463,7 +1497,7 @@ textarea {
     justify-content: center;
     flex-direction: column;
     gap: 15px;
-    padding: 50px 70px;
+    padding: 50px 50px;
     position: relative;
     /*background-image: url(../img/circulo_slide.svg);
     background-repeat: no-repeat;
@@ -2231,7 +2265,7 @@ footer {
     }
 
     .area_perfil {
-        padding: 40px 50px 40px 50px;
+        padding: 50px 50px 50px 50px;
     }
 
     .slide-3 {
