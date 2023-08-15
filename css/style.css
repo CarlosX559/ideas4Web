@@ -1228,7 +1228,7 @@ textarea {
     max-width: 100%;
 }
 
-.negocio_1:hover > .negocio_int {
+.negocio_1:hover>.negocio_int {
     display: flex;
 }
 
@@ -1258,7 +1258,7 @@ textarea {
     max-width: 100%;
 }
 
-.negocio_2:hover > .negocio_int {
+.negocio_2:hover>.negocio_int {
     display: flex;
 }
 
@@ -1276,7 +1276,7 @@ textarea {
     max-width: 100%;
 }
 
-.negocio_3:hover > .negocio_int {
+.negocio_3:hover>.negocio_int {
     display: flex;
 }
 
@@ -1294,7 +1294,7 @@ textarea {
     max-width: 100%;
 }
 
-.negocio_4:hover > .negocio_int {
+.negocio_4:hover>.negocio_int {
     display: flex;
 }
 
@@ -2598,12 +2598,19 @@ footer {
 }
 
 @media(max-width: 480px) {
+    .bg_header {
+        top: 320px;
+        max-width: 720px;
+    }
+
     .container_contato {
         padding: 40px 0px 40px 0px;
     }
+
     .title_contato h2 {
         font-size: 36px;
     }
+
     form {
         padding: 0px 20px;
     }
