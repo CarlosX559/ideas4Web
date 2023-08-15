@@ -26,8 +26,10 @@ if (isset($_POST["email"]) && !empty(trim($_POST["email"])) && !empty($_POST["no
 
 }
 if ($status) {
-    header("Location:index.php?status=sucesso");
+    //header("Location:index.php?status=sucesso");
+    header("Location: contato.html");
 } else {
-    header("Location:index.php?status=erro");
+    //header("Location:index.php?status=erro");
+    header("Location: contato.html");
 }
 ?>
