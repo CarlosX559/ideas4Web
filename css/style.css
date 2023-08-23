@@ -2691,6 +2691,10 @@ footer {
         padding: 30px 25px 30px 25px;
     }
 
+    .container_texts {
+        padding: 60px 0px 20px 0px;
+    }
+
     .title_box_quem_somos h2 {
         font-size: 24px;
     }
